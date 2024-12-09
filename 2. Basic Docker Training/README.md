@@ -6,73 +6,73 @@
 #### Running Containers
 
 
-![Ex1-1](images/ex1/1.png)
+![Ex1-1](images/ex1/1.png) <br/>
 Komenda `docker image`
 
-![Ex1-2](images/ex1/2.png)
+![Ex1-2](images/ex1/2.png) <br/>
 Komenda `docker search <ubuntu>`
 
-![Ex1-3](images/ex1/3.png)
+![Ex1-3](images/ex1/3.png) <br/>
 Komenda `docker pull ubuntu:22.04`
 
-![Ex1-4](images/ex1/4.png)
+![Ex1-4](images/ex1/4.png) <br/>
 Komenda `docker pull ubuntu:22.10`
 
-![Ex1-5](images/ex1/5.png)
+![Ex1-5](images/ex1/5.png) <br/>
 Komenda `docker images`
 
-![Ex1-6](images/ex1/6.png)
+![Ex1-6](images/ex1/6.png) <br/>
 Komenda `docker rmi <692eb4a905c0>`
 
-![Ex1-7](images/ex1/7.png)
+![Ex1-7](images/ex1/7.png) <br/>
 Komenda `docker images`
 
-![Ex1-8](images/ex1/8.png)
+![Ex1-8](images/ex1/8.png) <br/>
 Komenda `docker rmi $(docker images -q)`
 
-![Ex1-9](images/ex1/9.png)
+![Ex1-9](images/ex1/9.png) <br/>
 Komenda `docker run ubuntu:22.04 /bin/echo 'Hello world!'`
 
-![Ex1-10](images/ex1/10.png)
+![Ex1-10](images/ex1/10.png) <br/>
 Komenda `docker ps`
 
-![Ex1-11](images/ex1/11.png)
+![Ex1-11](images/ex1/11.png) <br/>
 Komenda `docker ps -a`
 
-![Ex1-12](images/ex1/12.png)
+![Ex1-12](images/ex1/12.png) <br/>
 Komenda `docker run ubuntu:22.04 /bin/bash`
 
-![Ex1-13](images/ex1/13.png)
+![Ex1-13](images/ex1/13.png) <br/>
 Komenda `docker ps -a`
 
-![Ex1-14](images/ex1/14.png)
+![Ex1-14](images/ex1/14.png) <br/>
 Komenda `docker run -it ubuntu:22.04 /bin/bash`
 
-![Ex1-15](images/ex1/15.png)
+![Ex1-15](images/ex1/15.png) <br/>
 Komenda wyświetlająca katalogi systemowe
 
-![Ex1-16](images/ex1/16.png)
+![Ex1-16](images/ex1/16.png) <br/>
 Komenda `/bin/sleep 3600`
 
-![Ex1-17](images/ex1/17.png)
+![Ex1-17](images/ex1/17.png) <br/>
 Komenda `docker ps`
 
-![Ex1-18](images/ex1/18.png)
+![Ex1-18](images/ex1/18.png) <br/>
 Komenda `docker exec -it d36 /bin/bash`
 
-![Ex1-19](images/ex1/19.png)
+![Ex1-19](images/ex1/19.png) <br/>
 Komenda `ps aux`
 
-![Ex1-20](images/ex1/20.png)
+![Ex1-20](images/ex1/20.png) <br/>
 Komenda `exit`
 
-![Ex1-21](images/ex1/21.png)
+![Ex1-21](images/ex1/21.png) <br/>
 Komenda `docker stop d368`
 
-![Ex1-22](images/ex1/22.png)
+![Ex1-22](images/ex1/22.png) <br/>
 Komenda `docker ps -a`
 
-![Ex1-23](images/ex1/23.png)
+![Ex1-23](images/ex1/23.png) <br/>
 Komenda `docker ps -a`
 
 

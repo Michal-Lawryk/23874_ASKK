@@ -7,7 +7,7 @@
 
 
 ![Ex1-1](images/ex1/1.png) <br/>
-Komenda `docker image` <br/>
+Komenda `docker image` <br/> <br/>
 
 ![Ex1-2](images/ex1/2.png) <br/>
 Komenda `docker search <ubuntu>` <br/>

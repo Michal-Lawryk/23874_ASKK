@@ -7,73 +7,73 @@
 
 
 ![Ex1-1](images/ex1/1.png) <br/>
-Komenda `docker image` <br/> <br/>
+Komenda `docker image` <br/><br/>
 
 ![Ex1-2](images/ex1/2.png) <br/>
-Komenda `docker search <ubuntu>` <br/>
+Komenda `docker search <ubuntu>` <br/><br/>
 
 ![Ex1-3](images/ex1/3.png) <br/>
-Komenda `docker pull ubuntu:22.04` <br/>
+Komenda `docker pull ubuntu:22.04` <br/><br/>
 
 ![Ex1-4](images/ex1/4.png) <br/>
-Komenda `docker pull ubuntu:22.10` <br/>
+Komenda `docker pull ubuntu:22.10` <br/><br/>
 
 ![Ex1-5](images/ex1/5.png) <br/>
-Komenda `docker images` <br/>
+Komenda `docker images` <br/><br/>
 
 ![Ex1-6](images/ex1/6.png) <br/>
-Komenda `docker rmi <692eb4a905c0>` <br/>
+Komenda `docker rmi <692eb4a905c0>` <br/><br/>
 
 ![Ex1-7](images/ex1/7.png) <br/>
-Komenda `docker images` <br/>
+Komenda `docker images` <br/><br/>
 
 ![Ex1-8](images/ex1/8.png) <br/>
-Komenda `docker rmi $(docker images -q)` <br/>
+Komenda `docker rmi $(docker images -q)` <br/><br/>
 
 ![Ex1-9](images/ex1/9.png) <br/>
-Komenda `docker run ubuntu:22.04 /bin/echo 'Hello world!'` <br/>
+Komenda `docker run ubuntu:22.04 /bin/echo 'Hello world!'` <br/><br/>
 
 ![Ex1-10](images/ex1/10.png) <br/>
-Komenda `docker ps` <br/>
+Komenda `docker ps` <br/><br/>
 
 ![Ex1-11](images/ex1/11.png) <br/>
-Komenda `docker ps -a` <br/>
+Komenda `docker ps -a` <br/><br/>
 
 ![Ex1-12](images/ex1/12.png) <br/>
-Komenda `docker run ubuntu:22.04 /bin/bash` <br/>
+Komenda `docker run ubuntu:22.04 /bin/bash` <br/><br/>
 
 ![Ex1-13](images/ex1/13.png) <br/>
-Komenda `docker ps -a` <br/>
+Komenda `docker ps -a` <br/><br/>
 
 ![Ex1-14](images/ex1/14.png) <br/>
-Komenda `docker run -it ubuntu:22.04 /bin/bash` <br/>
+Komenda `docker run -it ubuntu:22.04 /bin/bash` <br/><br/>
 
 ![Ex1-15](images/ex1/15.png) <br/>
-Komenda wyświetlająca katalogi systemowe <br/>
+Komenda wyświetlająca katalogi systemowe <br/><br/>
 
 ![Ex1-16](images/ex1/16.png) <br/>
-Komenda `/bin/sleep 3600` <br/>
+Komenda `/bin/sleep 3600` <br/><br/>
 
 ![Ex1-17](images/ex1/17.png) <br/>
-Komenda `docker ps` <br/>
+Komenda `docker ps` <br/><br/>
 
 ![Ex1-18](images/ex1/18.png) <br/>
-Komenda `docker exec -it d36 /bin/bash` <br/>
+Komenda `docker exec -it d36 /bin/bash` <br/><br/>
 
 ![Ex1-19](images/ex1/19.png) <br/>
-Komenda `ps aux` <br/>
+Komenda `ps aux` <br/><br/>
 
 ![Ex1-20](images/ex1/20.png) <br/>
-Komenda `exit` <br/>
+Komenda `exit` <br/><br/>
 
 ![Ex1-21](images/ex1/21.png) <br/>
-Komenda `docker stop d368` <br/>
+Komenda `docker stop d368` <br/><br/>
 
 ![Ex1-22](images/ex1/22.png) <br/>
-Komenda `docker ps -a` <br/>
+Komenda `docker ps -a` <br/><br/>
 
 ![Ex1-23](images/ex1/23.png) <br/>
-Komenda `docker ps -a` <br/>
+Komenda `docker ps -a` <br/><br/>
 
 
 

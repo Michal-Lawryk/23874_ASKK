@@ -1,0 +1,21 @@
+services:
+  frontend-service:
+    container_name: frontend
+    image: frontend 
+    build: 
+      context: ./example-frontend
+    ports:
+      - "5000:5000"
+    depends_on:
+      - backend-service
+
+  backend-service:
+    container_name: backend
+    image: backend
+    build:
+      context: ./example-backend
+    ports:
+      - "8080:8080"
+    environment:
+      - PORT=8080
+      - REQUEST_ORIGIN=http://localhost:5000

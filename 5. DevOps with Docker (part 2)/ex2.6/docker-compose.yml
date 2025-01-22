@@ -1,0 +1,54 @@
+services:
+  frontend-service:
+    container_name: frontend
+    image: frontend 
+    build: 
+      context: ./example-frontend
+    ports:
+      - "5000:5000"
+    depends_on:
+      - backend-service
+    networks:
+      - service-network
+
+  backend-service:
+    container_name: backend
+    image: backend
+    build:
+      context: ./example-backend
+    environment:
+      - PORT=8080
+      - REQUEST_ORIGIN=http://localhost:5000
+      - REDIS_HOST=redis
+      - POSTGRES_HOST=database
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - "8080:8080"
+    depends_on:
+      - redis
+      - database
+    networks:
+      - service-network
+
+  redis:
+    container_name: redis
+    image: redis:latest
+    restart: unless-stopped
+    networks:
+      - service-network
+
+  database:
+    image: postgres:latest
+    restart: unless-stopped
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - "5432:5432"
+    networks:
+      - service-network
+
+networks:
+  service-network:
+    driver: bridge

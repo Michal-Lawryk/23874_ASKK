@@ -23,6 +23,6 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          context: ./6. DevOps with Docker (part 3)/ex3.1/express-app             
-          file: ./express-app/Dockerfile    
+          context: .ex3.1/express-app             
+          file: .ex3.1/express-app/Dockerfile    
           tags: ${{ secrets.DOCKER_USERNAME }}/express-app:latest
